@@ -4,21 +4,6 @@ This repository contains code and scripts used in a research project titled "Usi
 
 ---
 
-## Repository Structure
-
-``
-.
-├── GSEA/
-│   └── heatmapcreation.r
-├── ML_models/
-│   └── [ML model files here]
-├── call_LOY/
-│   └── merge_cellranger_velocyto_LOY_calls.py
-├── find_markers.R
-└── README.md
-```
-
----
 
 ##  Overview
 ### 🔬 Biological Objective
