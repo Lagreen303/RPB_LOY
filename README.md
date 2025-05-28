@@ -1,4 +1,4 @@
-# LOY Project: Gene Set Enrichment and Classification Pipeline
+# LOY Project: Using Multi-omics to Characterise Clonal Expansion
 
 This repository contains code and scripts used in a research project titled "Using Multi-omics to Characterise Clonal Expansion" focused on transcriptomic analysis and classification related to **loss of Y chromosome (LOY)** in single-cell RNA-seq data.
 
