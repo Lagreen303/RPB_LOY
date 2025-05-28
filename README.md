@@ -6,7 +6,7 @@ This repository contains code and scripts used in a research project titled "Usi
 
 
 ##  Overview
-### 🔬 Biological Objective
+### Objective
 To identify and classify transcriptional patterns associated with LOY using:
 - Differential expression and gene set enrichment analysis (GSEA)
 - Marker discovery
