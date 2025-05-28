@@ -5,13 +5,13 @@ library(readr)
 library(tibble)
 
 # --- 0. Load gene annotation and exclude chrY genes ---
-gene_info <- read_tsv("/home/lag1e24/AIDA_rds/cell_type_DEGs/cell_type_DEGs_genename/longest_transcripts_unique.txt")
+gene_info <- read_tsv("longest_transcripts_unique.txt")
 y_genes <- gene_info %>%
   filter(chromosome == "chrY") %>%
   pull(gene)
 
 # --- 1. Setup ---
-input_dir <- "/home/lag1e24/AIDA_rds/cell_type_DEGs/cell_type_DEGs_genename"
+input_dir <- "cell_type_DEGs/cell_type_DEGs_genename"
 output_dir <- "GSEA_heatmaps"
 dir.create(output_dir, showWarnings = FALSE)
 
